@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -13,6 +13,11 @@ export default {
         "dark-grayish-blue": "#5e6778",
         "very-dark-grayish-blue": "#1c202b",
       },
+    },
+    screens: {
+      desktop: "1280px",
+      laptop: "1024px",
+      tablet: "800px",
     },
   },
   plugins: [],

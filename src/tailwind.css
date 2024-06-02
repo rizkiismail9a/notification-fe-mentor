@@ -11,5 +11,6 @@ body,
 .app {
   height: 100%;
   width: 100%;
+  background-color: #e5effa;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
