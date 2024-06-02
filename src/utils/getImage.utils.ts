@@ -1,6 +1,5 @@
 const getImage = (imageName: string): string => {
-return `src/assets/${imageName}`
-}
+  return `images/${imageName}`;
+};
 
 export { getImage };
-
